@@ -1,14 +1,12 @@
 
 
 const repeatString = function(string, num) {
-    let result = "";
+    let result = "BOBO";
     for (let i = 0; i < num; i++) {
      result += string;
+  
     }
 
-    if(num < 0) {
-        return "ERROR"
-    }
     return result;
 
 };
