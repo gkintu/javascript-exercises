@@ -1,21 +1,18 @@
 const sumAll = function(num, num1) {
-    sum = 0;
-
     if (!Number.isInteger(num) || !Number.isInteger(num1)) {
         return "ERROR";
     }
 
-
+    if( sum < 0 || ) {
+        return "ERROR";
+    }
 
    let min = Math.min(num, num1);
    let max = Math.max(num, num1);
-  
+   sum = 0;
+
     for(i = min; i <= max; i++) {
         sum += i;
-    }
-
-    if (sum < 0) {
-        return "ERROR";
     }
 
      return sum
