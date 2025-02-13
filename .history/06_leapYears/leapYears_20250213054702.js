@@ -1,8 +1,8 @@
-const leapYears = function(num) {
-   if (num % 4 === 0 && (num % 400 === 0 || num % 100 !== 0)) {
-      return true
+const leapYears = function() {
+    (num % 4 || num % 400 && num % !100) {
+     
        }
-       return false
+       return
 };
 
 // Do not edit below this line
