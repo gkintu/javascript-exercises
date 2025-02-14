@@ -16,26 +16,16 @@ const sum = function(arr) {
 	
 };
 
-const multiply = function(arr) {
- return arr.reduce((acc, number) => acc * number, 1);
+const multiply = function() {
+
 };
 
-const power = function(a, b) {
-	return a ** b;
+const power = function() {
+	
 };
 
-const factorial = function(n) {
-	if (n < 0) {
-    return undefined;
-  }
-
-  let result = 1;
-
-  for (i = 1; i <=n; i++) {
-    result *= i;
-  }
-
-  return result;
+const factorial = function() {
+	
 };
 
 // Do not edit below this line
