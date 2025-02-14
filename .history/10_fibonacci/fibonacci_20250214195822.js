@@ -1,13 +1,12 @@
 const fibonacci = function (n) {
-    const num = Number(n);
- if (num < 0) return "OOPS";
+    if (n < 0) return "OOPS";
 
-  if (num <= 1) return num;
+  if (n <= 1) return n;
 
   let prev = 0;
   let current = 1;
 
-  for (let i = 2; i <= num; i++) {
+  for (let i = 2; i <= n; i++) {
     const next = prev + current; // prev and current from last iteration
     prev = current; // from last Iteration Step
     current = next;

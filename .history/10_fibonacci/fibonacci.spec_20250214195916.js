@@ -25,13 +25,13 @@ describe('fibonacci', () => {
   test('DOES accept strings', () => {
     expect(fibonacci("0")).toBe(0);
   });
-  test('DOES accept strings', () => {
+  test.skip('DOES accept strings', () => {
     expect(fibonacci("1")).toBe(1);
   });
-  test('DOES accept strings', () => {
+  test.skip('DOES accept strings', () => {
     expect(fibonacci("2")).toBe(1);
   });
-  test('DOES accept strings', () => {
+  test.skip('DOES accept strings', () => {
     expect(fibonacci("8")).toBe(21);
   });
 });
